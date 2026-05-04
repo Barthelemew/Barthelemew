@@ -77,15 +77,15 @@ class NicolasTeyras:
 
 ---
 
-### ⚡ [Edge AI Benchmarks](https://github.com/Barthelemew/edge-ai-radxa) *(soon)*
-> LLM benchmarks on Radxa Rock 5B (RK3588 NPU/CPU)
+### ⚡ [Radxa Edge AI Bunker](https://github.com/Barthelemew/edge-ai-radxa)
+> High-performance, security-hardened local inference server (RK3588 NPU)
 
-- Benchmarking RKLLM (.rkllm) and GGUF formats on ARM NPU
-- Metrics: tokens/sec, RAM, tool accuracy, report quality
-- Custom kernel compilation (v6.1.115+), NPU driver patch
-- Model comparison: DeepSeek, Qwopus, Gemma-26B, GLM
+- **ARM NPU Optimization**: Benchmarking RKLLM (.rkllm) and GGUF formats on RKNPU2
+- **The Bunker Architecture**: Hardened security (UFW, SSH keys) with remote model switching
+- **High-Density Performance**: Qwen-3.5, DeepSeek-R1, and Qwopus-9B with 32k context
+- **Integration Hub**: Cognitive core for autonomous agents (n8n, LangGraph, CrewAI)
 
-`Python` `Bash` `RKLLM` `GGUF` `ARM` `NPU`
+`Python` `Bash` `RKLLM` `GGUF` `ARM` `NPU` `RKNPU2`
 
 ---
 
