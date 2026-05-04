@@ -73,6 +73,17 @@ class NicolasTeyras:
 
 ---
 
+### 🔐 [Cyber-Portfolio](https://github.com/Barthelemew/Cyber-Portfolio)
+> Security practitioner exercises, IDS monitoring, and automated log analysis
+
+- **IDS/IPS Implementation**: Practical experience with **Suricata** and network traffic analysis (PCAP).
+- **Log Analysis**: Automated parsing and pattern detection in security logs.
+- **Cyber-AI Integration**: Exploring LLM-based incident explanation and remediation suggestions.
+
+`Jupyter` `Python` `Suricata` `Wireshark` `Security`
+
+---
+
 ### 🎥 [YouTube Intelligence AI](https://github.com/Barthelemew/yt-summarizer)
 > Instant video summarization & Q&A with Cerebras Cloud & Edge AI
 
@@ -133,6 +144,18 @@ class NicolasTeyras:
   <img height="180" src="https://github-stats-alpha.vercel.app/api?username=Barthelemew&cc=222&tc=0077b5&ic=0077b5&bc=000" />
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Barthelemew&theme=dark" />
 </div>
+
+---
+
+## 🏗️ Complementary Projects
+
+### 📱 [ShinyDex](https://github.com/Barthelemew/ShinyDex)
+> High-performance Pokémon PWA (Progressive Web App) with real-time sync
+
+- **Vibe-Coding**: Built with speed and modern UX in mind using **React** and **Supabase**.
+- **Offline First**: PWA support for a seamless mobile experience.
+
+`React` `Supabase` `PWA` `TailwindCSS`
 
 ---
 
