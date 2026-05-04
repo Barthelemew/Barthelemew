@@ -27,6 +27,17 @@ class NicolasTeyras:
 
 ## 🚀 Featured Projects
 
+### 🧑‍🍳 [LeCellier-Lite](https://github.com/Barthelemew/LeCellier-Lite)
+> Autonomous culinary assistant with LangGraph orchestration & MCP protocol
+
+- **LangGraph Workflow**: Directed Acyclic Graph (DAG) for parallel agent execution.
+- **Human-in-the-Loop**: Sequential validation nodes for inventory and recipe management.
+- **Smart Inventory**: MCP-driven SQL tool for real-time stock tracking.
+
+`Python` `LangGraph` `MCP` `Groq` `SQLite`
+
+---
+
 ### 🤖 [AgentShepard](https://github.com/Barthelemew/AgentShepard)
 > Local-first AI agent with persistent memory, multi-channel support & MCP integration
 
@@ -39,14 +50,14 @@ class NicolasTeyras:
 
 ---
 
-### 🎯 [JobSniper-Lite](https://github.com/Barthelemew/JobSniper-Lite)
-> Autonomous job hunting pipeline with autonomous scraping and AI-powered scoring
+### 🔬 [CrewAI Research System](https://github.com/Barthelemew/crewai-research-system)
+> Multi-agent research pipeline optimized for ARM NPU edge inference
 
-- **Autonomous Pipeline**: Scrapes job boards (Playwright) and scores roles based on custom tracks.
-- **Scoring Engine**: Multi-dimensional evaluation (Tech, Agentic AI, Cyber) using local LLMs.
-- **Lightweight Architecture**: SQLite + Prisma backend with a clean Next.js dashboard.
+- **Hierarchical Agents**: Researcher (DeepSeek) and Analyst (Qwopus) working in tandem.
+- **Dynamic Orchestration**: Automated SSH model switching between inference sessions.
+- **Production Grade**: Generates structured Markdown reports with citation-backed research.
 
-`Next.js` `TypeScript` `Prisma` `LLM` `Playwright`
+`Python` `CrewAI` `Edge AI` `Local LLM` `Radxa Rock 5B`
 
 ---
 
@@ -73,25 +84,14 @@ class NicolasTeyras:
 
 ---
 
-### 🔬 [CrewAI Research System](https://github.com/Barthelemew/crewai-research-system)
-> Multi-agent research pipeline optimized for ARM NPU edge inference
+### 🎯 [JobSniper-Lite](https://github.com/Barthelemew/JobSniper-Lite)
+> Autonomous job hunting pipeline with autonomous scraping and AI-powered scoring
 
-- **Hierarchical Agents**: Researcher (DeepSeek) and Analyst (Qwopus) working in tandem.
-- **Dynamic Orchestration**: Automated SSH model switching between inference sessions.
-- **Production Grade**: Generates structured Markdown reports with citation-backed research.
+- **Autonomous Pipeline**: Scrapes job boards (Playwright) and scores roles based on custom tracks.
+- **Scoring Engine**: Multi-dimensional evaluation (Tech, Agentic AI, Cyber) using local LLMs.
+- **Lightweight Architecture**: SQLite + Prisma backend with a clean Next.js dashboard.
 
-`Python` `CrewAI` `Edge AI` `Local LLM` `Radxa Rock 5B`
-
----
-
-### 🧑‍🍳 [LeCellier-Lite](https://github.com/Barthelemew/LeCellier-Lite)
-> Autonomous culinary assistant with LangGraph orchestration & MCP protocol
-
-- **LangGraph Workflow**: Directed Acyclic Graph (DAG) for parallel agent execution.
-- **Human-in-the-Loop**: Sequential validation nodes for inventory and recipe management.
-- **Smart Inventory**: MCP-driven SQL tool for real-time stock tracking.
-
-`Python` `LangGraph` `MCP` `Groq` `SQLite`
+`Next.js` `TypeScript` `Prisma` `LLM` `Playwright`
 
 ---
 
