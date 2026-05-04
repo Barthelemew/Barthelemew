@@ -118,3 +118,33 @@ llm = ChatOpenAI(
 <div align="center">
   <i>Part of the <b>Nicolas TEYRAS</b> AI Portfolio.</i>
 </div>
+
+
+# Rapport d'Optimisation : Inférence Agentique sur [[Radxa Rock 5[[]]B]]
+
+## 1. Le Workflow [[CrewAI]] (Infrastructure)
+Le système repose sur une orchestration d'agents autonomes optimisée selon vos benchmarks du 27/04/2026 :
+*   **Chercheur (Researcher)** : `DeepSeek-Coder-V2-Lite` (95% d'efficacité en Tool Calling). Il gère les boucles de recherche web via `search_tool`.
+*   **Analyste (Analyst)** : `Qwopus3.5-9B` (Score 1.00 en rédaction/synthèse). Il compile les découvertes en un rapport structuré.
+*   **Contrôle SSH** : Basculement dynamique des modèles sur le NPU du Radxa pour optimiser la RAM.
+
+## 2. Le Problème : "The 1024 Handle Wall"
+Lors des exécutions longues, le système s'effondrait systématiquement avec une `Segmentation Fault`.
+*   **Symptôme** : Message d'erreur `failed to convert handle(1018) to fd`.
+*   **Diagnostic** : Une fuite de descripteurs de fichiers (handles) dans le driver RKNPU (`v0.9.8`). Chaque opération NPU ouvrait un fichier de synchronisation sans le refermer, saturant la limite système de 1024 fichiers.
+
+## 3. La Solution : Patch et Recompilation Kernel
+### A. Patch du Driver [[RKNPU]]
+Modification du code source dans `drivers/npu/rknpu_fence.c` :
+*   **Action** : Ajout de `fput(sync_file->file)` après `fd_install`.
+*   **Effet** : Libération systématique des ressources NPU après chaque tâche.
+
+### B. Compilation et Force-Installation
+*   **Kernel** : Build d'une version `6.1.115+` patchée.
+*   **Déploiement** : Remplacement direct des binaires de démarrage dans `/boot` pour forcer U-Boot à charger la version corrigée.
+
+## 4. Succès et Performance
+La génération réussie de `business_ia_report.md` confirme la résolution :
+*   **Stabilité** : handles maintenus à ~25-30 au lieu de 1024.
+*   **Vitesse** : **3.15 tokens/seconde** sur le modèle 9B avec une latence minimale.
+*   **Tool Accuracy** : Confirmée par l'usage fluide de `DeepSeek-Coder-V2-Lite`.
