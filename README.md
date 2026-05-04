@@ -19,8 +19,8 @@ class NicolasTeyras:
     focus      = ["Agentic AI", "LLM Integration", "Edge Inference", "Cybersecurity"]
     stack      = ["TypeScript", "Python", "Next.js", "CrewAI", "MCP", "LiteLLM"]
     hardware   = ["Radxa Rock 5B (RK3588 NPU)", "VPS Linux", "Windows 11"]
-    models     = ["DeepSeek", "Qwen3", "GLM", "Qwopus", "Gemma"]
-    currently  = "Building multi-channel AI agents with persistent memory"
+    models     = ["DeepSeek-R1", "Qwen-3.5", "Qwopus", "Gemma-4", "GLM"]
+    currently  = "Optimizing high-density agentic workflows on ARM NPU"
 ```
 
 ---
@@ -30,86 +30,68 @@ class NicolasTeyras:
 ### 🤖 [AgentShepard](https://github.com/Barthelemew/AgentShepard)
 > Local-first AI agent with persistent memory, multi-channel support & MCP integration
 
-- **WhatsApp · Telegram · Discord · Signal** — same agent, everywhere
-- Persistent memory via **SQLite + pgvector embeddings**
-- **MCP (Model Context Protocol)** — Windows Desktop, Blender, custom servers
-- Skills: Playwright browser, Google Workspace, N8N automation, RSS, terminal
-- Sub-agent spawning, LLM router (Groq, Ollama, LiteLLM, OpenRouter...)
-- Cognition system via structured Markdown prompts (`Soul.md`, `agent.md`)
+- **Multi-Channel**: WhatsApp, Telegram, Discord, Signal — same agent, everywhere.
+- **Cognition**: Advanced system prompts (`Soul.md`) and persistent memory via **pgvector**.
+- **Agentic Skills**: Playwright browser, Google Workspace, N8N automation, and sub-agent spawning.
+- **Protocol**: Native **MCP (Model Context Protocol)** support for local tool orchestration.
 
 `TypeScript` `Node.js` `MCP` `WhatsApp` `N8N` `pgvector` `Playwright`
 
 ---
 
 ### 🎯 [JobSniper-Lite](https://github.com/Barthelemew/JobSniper-Lite)
-> Open-source job hunting pipeline with autonomous scraping and AI-powered scoring
+> Autonomous job hunting pipeline with autonomous scraping and AI-powered scoring
 
-- Generic scraper (Playwright) capable of parsing any job URL
-- **Multidimensional Scoring Engine**: Tech, Agentic AI, and Cyber tracks
-- Standard OpenAI-compatible backend (Ollama, Groq, OpenAI)
-- Lightweight dashboard with SQLite + Prisma persistence
+- **Autonomous Pipeline**: Scrapes job boards (Playwright) and scores roles based on custom tracks.
+- **Scoring Engine**: Multi-dimensional evaluation (Tech, Agentic AI, Cyber) using local LLMs.
+- **Lightweight Architecture**: SQLite + Prisma backend with a clean Next.js dashboard.
 
 `Next.js` `TypeScript` `Prisma` `LLM` `Playwright`
-
----
-
-### 🧑‍🍳 [LeCellier-Lite](https://github.com/Barthelemew/LeCellier-Lite)
-> Autonomous culinary assistant with LangGraph orchestration & MCP protocol
-
-- **LangGraph DAG** with parallel nodes (Chef & Nutritionist)
-- **Human-in-the-loop**: Sequential validation before inventory updates
-- **MCP (Model Context Protocol)**: SQL tool for inventory management
-- Dynamic recipe research via DuckDuckGo and Groq (Llama-3)
-
-`Python` `LangGraph` `MCP` `Groq` `SQLite`
-
----
-
-### 🔬 [CrewAI Research System](https://github.com/Barthelemew/crewai-research-system)
-> Multi-agent research pipeline optimized for ARM NPU edge inference
-
-- **Researcher Agent** (DeepSeek-Coder-V2-Lite): 95% tool accuracy, web search via DuckDuckGo
-- **Analyst Agent** (Qwopus-3.5-9B): 1.00 report structure score, 32k context
-- Dynamic SSH model switching between Radxa inference sessions
-- Outputs structured Markdown research reports
-
-`Python` `CrewAI` `Edge AI` `Local LLM` `Radxa Rock 5B`
 
 ---
 
 ### ⚡ [Radxa Edge AI Bunker](https://github.com/Barthelemew/edge-ai-radxa)
 > High-performance, security-hardened local inference server (RK3588 NPU)
 
-- **ARM NPU Optimization**: Benchmarking RKLLM (.rkllm) and GGUF formats on RKNPU2
-- **The Bunker Architecture**: Hardened security (UFW, SSH keys) with remote model switching
-- **High-Density Performance**: Qwen-3.5, DeepSeek-R1, and Qwopus-9B with 32k context
-- **Kernel-Level Tuning**: Fixed RKNPU driver handle leak and recompiled kernel 6.1.115+
+- **Kernel-Level Optimization**: Patched RKNPU driver and recompiled **Kernel 6.1.115+** to solve the *"1024 Handle Wall"* resource leak.
+- **ARM NPU Performance**: Benchmarking **RKLLM** and GGUF formats with sub-second prefill.
+- **Hardened Architecture**: UFW isolation, SSH key-only access, and NOPASSWD profile switching.
+- **High-Density**: Optimized for 32k context reasoning on the **Qwopus-9B** model.
 
-`Python` `Bash` `RKLLM` `GGUF` `ARM` `NPU` `RKNPU2` `Kernel`
-
----
-
-### 🔐 [Cyber-Portfolio](https://github.com/Barthelemew/Cyber-Portfolio)
-> Security practitioner exercises & applied cybersecurity
-
-- Network protocol analysis (Wireshark, Scapy)
-- IDS/IPS configuration & tuning (Suricata)
-- OSINT methodologies & tools
-- TryHackMe labs & CTF write-ups
-
-`Jupyter` `Python` `Suricata` `OSINT` `Wireshark`
+`Python` `Bash` `RKLLM` `NPU` `RKNPU2` `Kernel` `Security`
 
 ---
 
 ### 🎥 [YouTube Intelligence AI](https://github.com/Barthelemew/yt-summarizer)
 > Instant video summarization & Q&A with Cerebras Cloud & Edge AI
 
-- **Dual-Inference Engine**: Sub-second cloud inference (Cerebras) or private Edge AI (Radxa NPU)
-- **RAG-Powered Q&A**: Semantic search over video transcripts using local FAISS vector store
-- **Smart Orchestration**: Automatic remote model switching via SSH for ARM NPU optimization
-- **Premium Gradio UI**: Responsive interface with real-time streaming and CoT visibility
+- **Dual-Inference Engine**: Sub-second cloud inference (**Cerebras**) or private local inference (Radxa).
+- **RAG Implementation**: Semantic search over transcripts using a local **FAISS** vector store.
+- **CoT Visibility**: Real-time streaming of model reasoning (Chain of Thought) and final outputs.
 
-`Python` `Gradio` `LangChain` `Cerebras` `FAISS` `Edge AI`
+`Python` `Gradio` `LangChain` `Cerebras Cloud` `FAISS` `Edge AI`
+
+---
+
+### 🔬 [CrewAI Research System](https://github.com/Barthelemew/crewai-research-system)
+> Multi-agent research pipeline optimized for ARM NPU edge inference
+
+- **Hierarchical Agents**: Researcher (DeepSeek) and Analyst (Qwopus) working in tandem.
+- **Dynamic Orchestration**: Automated SSH model switching between inference sessions.
+- **Production Grade**: Generates structured Markdown reports with citation-backed research.
+
+`Python` `CrewAI` `Edge AI` `Local LLM` `Radxa Rock 5B`
+
+---
+
+### 🧑‍🍳 [LeCellier-Lite](https://github.com/Barthelemew/LeCellier-Lite)
+> Autonomous culinary assistant with LangGraph orchestration & MCP protocol
+
+- **LangGraph Workflow**: Directed Acyclic Graph (DAG) for parallel agent execution.
+- **Human-in-the-Loop**: Sequential validation nodes for inventory and recipe management.
+- **Smart Inventory**: MCP-driven SQL tool for real-time stock tracking.
+
+`Python` `LangGraph` `MCP` `Groq` `SQLite`
 
 ---
 
@@ -118,24 +100,25 @@ class NicolasTeyras:
 <div align="center">
 
 **AI & Agents**
-
+<br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-red?style=flat)
-![LangChain](https://img.shields.io/badge/LangChain-green?style=flat)
-![LiteLLM](https://img.shields.io/badge/LiteLLM-blue?style=flat)
+![LangGraph](https://img.shields.io/badge/LangGraph-orange?style=flat)
+![MCP](https://img.shields.io/badge/MCP-blue?style=flat)
+![Cerebras](https://img.shields.io/badge/Cerebras-Cloud-darkgreen?style=flat)
 ![N8N](https://img.shields.io/badge/N8N-EA4B71?style=flat&logo=n8n&logoColor=white)
 
-**Backend & Data**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
+**Infrastructure & Edge**
+<br>
+![Radxa](https://img.shields.io/badge/Radxa-Rock_5B-black?style=flat)
+![RKLLM](https://img.shields.io/badge/RK3588-NPU-darkred?style=flat)
+![Linux](https://img.shields.io/badge/Linux-Kernel_6.1-FCC624?style=flat&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
 
 **Security**
-
+<br>
 ![Suricata](https://img.shields.io/badge/Suricata-IDS%2FIPS-orange?style=flat)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
 ![OSINT](https://img.shields.io/badge/OSINT-darkred?style=flat)
