@@ -12,7 +12,7 @@ This project documents the transformation of a **Radxa Rock 5B (32GB RAM)** into
 - **SoC**: Rockchip RK3588 (8-Core ARM: 4× Cortex-A76 @ 2.4GHz + 4× Cortex-A55 @ 1.8GHz)
 - **NPU**: 6 TOPS Neural Processing Unit (RKNPU2)
 - **RAM**: 32GB LPDDR4x (High-density for Large Language Models)
-- **Storage**: 512GB NVMe SSD (Gen3 x4)
+- **Storage**: 1TO NVMe SSD (Gen3 x4)
 - **Cooling**: Active heatsink with PWM fan control
 
 ---
