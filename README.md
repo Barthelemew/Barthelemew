@@ -101,6 +101,18 @@ class NicolasTeyras:
 
 ---
 
+### 🎥 [YouTube Intelligence AI](https://github.com/Barthelemew/yt-summarizer)
+> Instant video summarization & Q&A with Cerebras Cloud & Edge AI
+
+- **Dual-Inference Engine**: Sub-second cloud inference (Cerebras) or private Edge AI (Radxa NPU)
+- **RAG-Powered Q&A**: Semantic search over video transcripts using local FAISS vector store
+- **Smart Orchestration**: Automatic remote model switching via SSH for ARM NPU optimization
+- **Premium Gradio UI**: Responsive interface with real-time streaming and CoT visibility
+
+`Python` `Gradio` `LangChain` `Cerebras` `FAISS` `Edge AI`
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
