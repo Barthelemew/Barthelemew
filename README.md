@@ -41,15 +41,27 @@ class NicolasTeyras:
 
 ---
 
-### 🎯 [JobSniper V2](https://github.com/Barthelemew/jobsniper-v2) *(soon)*
-> Autonomous job hunting pipeline — from scraping to LLM scoring
+### 🎯 [JobSniper-Lite](https://github.com/Barthelemew/JobSniper-Lite)
+> Open-source job hunting pipeline with autonomous scraping and AI-powered scoring
 
-- Multi-source job scraping with generic fallback
-- **LLM-powered scoring** of job offers via local inference (Radxa)
-- Real-time Next.js dashboard with Supabase backend
-- Automated cron cleanup + 3-week retention policy
+- Generic scraper (Playwright) capable of parsing any job URL
+- **Multidimensional Scoring Engine**: Tech, Agentic AI, and Cyber tracks
+- Standard OpenAI-compatible backend (Ollama, Groq, OpenAI)
+- Lightweight dashboard with SQLite + Prisma persistence
 
-`Next.js` `TypeScript` `Supabase` `LLM` `Automation`
+`Next.js` `TypeScript` `Prisma` `LLM` `Playwright`
+
+---
+
+### 🧑‍🍳 [LeCellier-Lite](https://github.com/Barthelemew/LeCellier-Lite)
+> Autonomous culinary assistant with LangGraph orchestration & MCP protocol
+
+- **LangGraph DAG** with parallel nodes (Chef & Nutritionist)
+- **Human-in-the-loop**: Sequential validation before inventory updates
+- **MCP (Model Context Protocol)**: SQL tool for inventory management
+- Dynamic recipe research via DuckDuckGo and Groq (Llama-3)
+
+`Python` `LangGraph` `MCP` `Groq` `SQLite`
 
 ---
 
