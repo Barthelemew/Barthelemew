@@ -130,8 +130,8 @@ class NicolasTeyras:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Barthelemew&theme=dark" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Barthelemew&theme=dark" />
+  <img height="180" src="https://github-stats-alpha.vercel.app/api?username=Barthelemew&cc=222&tc=0077b5&ic=0077b5&bc=000" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Barthelemew&theme=dark" />
 </div>
 
 ---
