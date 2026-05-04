@@ -82,7 +82,7 @@ class NicolasTeyras:
 
 - **ARM NPU Optimization**: Benchmarking RKLLM (.rkllm) and GGUF formats on RKNPU2
 - **The Bunker Architecture**: Hardened security (UFW, SSH keys) with remote model switching
-- **High-Density Performance**: Qwen-3.5, DeepSeek-R1, and Qwopus-9B with 32k context
+- **High-Density Performance**: Qwen-3.5, Gemma4-26B(MOE), DeepSeek-R1, and Qwopus-9B with 32k context
 - **Integration Hub**: Cognitive core for autonomous agents (n8n, LangGraph, CrewAI)
 
 `Python` `Bash` `RKLLM` `GGUF` `ARM` `NPU` `RKNPU2`
