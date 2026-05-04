@@ -77,7 +77,7 @@ class NicolasTeyras:
 
 ---
 
-### ⚡ [Radxa Edge AI Bunker](./edge-ai-radxa)
+### ⚡ [Radxa Edge AI Bunker](https://github.com/Barthelemew/edge-ai-radxa)
 > High-performance, security-hardened local inference server (RK3588 NPU)
 
 - **ARM NPU Optimization**: Benchmarking RKLLM (.rkllm) and GGUF formats on RKNPU2
